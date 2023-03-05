@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="left">
+      <img src="halie-west-25xggax4bSA-unsplash.jpg" alt="da" />
+      <div class="odin">
+        <img src="odin-lined.png" alt="odin" />
+        <div class="odin_name">Odin</div>
+      </div>
+      <div class="by">
+        Photo by Halie West on 
+        <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a>
+      </div>
+    </div>
+    <div class="right">
+      <p>
+        This is not a real online service! You know you need something <br />
+        like this in your life to help your deepest dreams. <br />
+        Sign up now to get started.
+      </p>
+      <div class="you">You know you want to.</div>
+      <form action="post">
+        <div class="frm">
+          <div class="let">Let's do this!</div>
+          <div></div>
+          <fieldset>
+            <legend>Fist name</legend>
+            <label for="f_name"></label>
+            <input type="text" id="f_name" name="f_name" />
+          </fieldset>
+          <fieldset>
+            <legend>Last name</legend>
+            <label for="l_name"></label>
+            <input type="text" id="l_name" name="l_name" />
+          </fieldset>
+          <fieldset>
+            <legend>Email</legend>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" required/>
+          </fieldset>
+          <fieldset>
+            <legend>Phone Number</legend>
+            <label for="tel"></label>
+            <input type="tel" id="tel" name="tel" />
+          </fieldset>
+          <fieldset>
+            <legend>Password</legend>
+            <label for="password"></label>
+            <input type="password" id="password" name="password" required />
+          </fieldset>
+          <fieldset>
+            <legend>Confirm Password</legend>
+            <label for="c_password"></label>
+            <input type="password" id="c_password" name="c_password" required />
+          </fieldset>
+        </div>
+
+        <div class="but"><button type="submit">Create Account</button></div>
+      </form>
+
+      <div class="alredy">Alredy have an account? <a href="">Log in</a></div>
+    </div>
+  </body>
+</html>
